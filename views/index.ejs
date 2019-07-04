@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from https://bootdey.com  -->
+    <!--  All snippets are MIT license https://bootdey.com/license -->
+    <title>Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+</head>
+<body>
+<div class="container bootstrap snippets">
+<div class="col-md-7 col-xs-12 col-md-offset-2">
+  <!-- Panel Chat -->
+  <div class="panel" id="chat">
+    <div class="panel-heading">
+      <h3 class="panel-title">
+        <i class="icon wb-chat-text" aria-hidden="true"></i> Chat
+            <section>
+                <div id="change_username">
+                  <form>
+                      <div class="input-group">
+                          <input id="username" class="form-control" type="text" placeholder="Masukkan nama" />
+                          <span class="input-group-btn">
+                              <button id="send_username" type="button" class="btn btn-primary">Simpan</button>
+                          </span>
+                      </div>
+                  </form>
+                </div>
+            </section>
+      </h3>
+    </div>
+    <div class="panel-body sekerol" id="style-sekerol">
+      <div class="chats">
+          <section id="chatroom">
+              <section id="feedback"></section>
+          </section>
+        <!-- <div class="chat chat-left">
+          <div class="chat-avatar">
+            <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="left" title="" data-original-title="Edward Fletcher">
+              <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="...">
+              <i></i>
+            </a>
+            <p class="nama_user"></p>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>Well, I am just looking around.</p>
+              <time class="chat-time" datetime="2015-07-01T11:39">11:39:57 am</time>
+            </div>
+          </div>
+        </div> -->
+          <!-- <div class="chat">
+            <div class="chat-body">
+              <div class="chat-button">
+                  <center><button class="btn btn-default">button</button></center>
+              </div>
+            </div>
+          </div> -->
+        <!-- <div class="chat">
+          <div class="chat-avatar">
+            <a class="avatar avatar-online" data-toggle="tooltip" href="#" data-placement="right" title="" data-original-title="June Lane">
+              <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="...">
+              <i></i>
+            </a>
+          </div>
+          <div class="chat-body">
+            <div class="chat-content">
+              <p>
+                If necessary, please ask me.
+              </p>
+              <time class="chat-time" datetime="2015-07-01T11:40">11:40:10 am</time>
+            </div>
+          </div>
+        </div> -->
+        
+      </div>
+    </div>
+    <div class="panel-footer">
+      <form>
+        <div class="input-group">
+          <!-- <i class="glyphicons glyphicon-file"></i> -->
+          <input id="message" type="text" class="form-control" placeholder="Say something">
+          <span class="input-group-btn">
+            <button id="send_message" class="btn btn-primary" type="button">Send</button>
+          </span>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End Panel Chat -->
+</div>
+</div>
+
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="chat.js"></script>
+</body>
+</html>
